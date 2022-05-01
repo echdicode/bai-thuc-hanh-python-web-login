@@ -1,0 +1,7 @@
+<h2>Home Page</h2>
+<p>Welcome back, {{ username }}!</p>
+<form action="/feedback" method="post">
+  <input type="text" value={{ username }} name="username"></input>
+  <input type="text" name="feedback"></input>
+  <input type="submit" value="submit"></input>
+</form>
